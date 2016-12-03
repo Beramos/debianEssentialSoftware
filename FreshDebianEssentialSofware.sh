@@ -10,10 +10,11 @@ sudo apt-get install google-chrome-stable
 #kile
 sudo apt-get --yes --force-yes install kile
 
-#github
+# Git
 sudo apt-get --yes --force-yes install git
 
-# flash player for chromium
+# flash player for google chrome
+# still need to find a good one ;(
 
 # clipx
 sudo apt-get --yes --force-yes install xclip
@@ -55,3 +56,17 @@ sudo add-apt-repository http://dl.openfoam.org/ubuntu
 sudo sh -c "wget -O - http://dl.openfoam.org/gpg.key | apt-key add -"
 sudo apt-get update
 sudo apt-get -y install openfoam4
+
+#Inkscape
+sudo apt-get --yes --force-yes install Inkscape
+
+#pdftk
+sudo apt-get --yes --force-yes install pdftk
+
+#Citrix receiver for Athena
+sudo apt-get --yes --force-yes install icaclient
+
+#pandoc document converter
+sudo apt-get --yes --force-yes install pandoc
+
+
