@@ -69,4 +69,9 @@ sudo apt-get --yes --force-yes install icaclient
 #pandoc document converter
 sudo apt-get --yes --force-yes install pandoc
 
+#simple backup utility
+sudo apt-get --yes --force-yes install sbackup # documentation https://help.ubuntu.com/community/BackupYourSystem/SimpleBackupSuite
+
+#tree
+sudo apt-get --yes --force-yes install tree
 
