@@ -75,3 +75,5 @@ sudo apt-get --yes --force-yes install sbackup # documentation https://help.ubun
 #tree
 sudo apt-get --yes --force-yes install tree
 
+#meld  Graphical git diff tool
+sudo apt-get --yes --force-yes install meld
