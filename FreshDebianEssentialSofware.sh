@@ -77,3 +77,9 @@ sudo apt-get --yes --force-yes install tree
 
 #meld  Graphical git diff tool
 sudo apt-get --yes --force-yes install meld
+
+# Cinnamon 3.0 for ubuntu 16.04
+sudo add-apt-repository ppa:embrosyn/cinnamon
+sudo apt-get update && sudo apt-get --yes --force-yes install cinnamon
+
+
