@@ -12,22 +12,21 @@ sudo apt-get --yes --force-yes install kile
 
 # Git
 sudo apt-get --yes --force-yes install git
+read -p "add pub key to github, go to: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ and then press enter"
 
 # flash player for google chrome
 # still need to find a good one ;(
-
-# clipx
-sudo apt-get --yes --force-yes install xclip
-xclip -sel clip < ~/.ssh/id_rsa.pub
 
 # generate pub key
 ssh-keygen -t rsa -b 4096 -C "bram.de.jaegher@gmail.com"
 ssh-add ~/.ssh/id_rsa
 
+# clipx
+sudo apt-get --yes --force-yes install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
 # vim
 sudo apt-get --yes --force-yes install vim
-
-read -p "add pub key to github, go to: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ and then press enter"
 
 #zsh
 sudo apt-get --yes --force-yes install zsh
