@@ -56,8 +56,11 @@ sudo sh -c "wget -O - http://dl.openfoam.org/gpg.key | apt-key add -"
 sudo apt-get update
 sudo apt-get -y install openfoam4
 
-#Inkscape
-sudo apt-get --yes --force-yes install Inkscape
+#inkscape
+sudo apt-get --yes --force-yes install inkscape
+
+#gimp
+sudo apt-get --yes --force-yes install gimp
 
 #pdftk
 sudo apt-get --yes --force-yes install pdftk
