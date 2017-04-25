@@ -41,14 +41,9 @@ git clone --recursive git@github.com:beramos/dotphiles.git ~/.dotfiles
 ./.dotfiles/dotsync/bin/dotsync -L
 sudo echo 'zsh' >> ~/.bashrc
 
-# f.lux
-sudo apt-get --yes --force-yes install git python-appindicator python-xdg python-pexpect python-gconf python-gtk2 python-glade2 libxxf86vm1
-cd /tmp
-git clone "https://github.com/xflux-gui/xflux-gui.git"
-cd xflux-gui
-python download-xflux.py
-sudo python setup.py install
-cd
+# F.lux
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
 
 # openFOAM4.1 # doesn't work
 sudo add-apt-repository http://dl.openfoam.org/ubuntu
