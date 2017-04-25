@@ -50,7 +50,7 @@ python download-xflux.py
 sudo python setup.py install
 cd
 
-# openFOAM4.1
+# openFOAM4.1 # doesn't work
 sudo add-apt-repository http://dl.openfoam.org/ubuntu
 sudo sh -c "wget -O - http://dl.openfoam.org/gpg.key | apt-key add -"
 sudo apt-get update
@@ -71,14 +71,8 @@ sudo apt-get --yes --force-yes install icaclient
 #pandoc document converter
 sudo apt-get --yes --force-yes install pandoc
 
-#simple backup utility
-sudo apt-get --yes --force-yes install sbackup # documentation https://help.ubuntu.com/community/BackupYourSystem/SimpleBackupSuite
-
 #tree
 sudo apt-get --yes --force-yes install tree
-
-#meld  Graphical git diff tool
-sudo apt-get --yes --force-yes install meld
 
 # Cinnamon 3.0 for ubuntu 16.04
 sudo add-apt-repository ppa:embrosyn/cinnamon
