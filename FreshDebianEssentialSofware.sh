@@ -84,4 +84,7 @@ sudo apt-get --yes --force-yes install meld
 sudo add-apt-repository ppa:embrosyn/cinnamon
 sudo apt-get update && sudo apt-get --yes --force-yes install cinnamon
 
-
+# Brackets
+sudo add-apt-repository ppa:webupd8team/brackets
+sudo apt-get update
+sudo apt-get install brackets
