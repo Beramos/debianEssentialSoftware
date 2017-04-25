@@ -77,3 +77,23 @@ sudo apt-get update && sudo apt-get --yes --force-yes install cinnamon
 sudo add-apt-repository ppa:webupd8team/brackets
 sudo apt-get update
 sudo apt-get install brackets
+
+# Cifs for mounting windows shares
+sudo apt-get install cifs-utils
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
