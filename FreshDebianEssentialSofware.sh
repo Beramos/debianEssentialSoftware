@@ -60,9 +60,6 @@ sudo apt-get --yes --force-yes install gimp
 #pdftk
 sudo apt-get --yes --force-yes install pdftk
 
-#Citrix receiver for Athena
-sudo apt-get --yes --force-yes install icaclient
-
 #pandoc document converter
 sudo apt-get --yes --force-yes install pandoc
 
