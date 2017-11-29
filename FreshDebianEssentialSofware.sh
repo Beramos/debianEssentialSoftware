@@ -18,20 +18,20 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update 
 sudo apt-get --yes --force-yes install google-chrome-stable
 
-#kile
+# kile
 sudo apt-get --yes --force-yes install kile
 
 # clipx
 sudo apt-get --yes --force-yes install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
 
-#zsh
+# zsh
 sudo apt-get --yes --force-yes install zsh
 
-#htop
+# htop
 sudo apt-get --yes --force-yes install htop
 
-#dotphiles bashrc backup
+# dotphiles bashrc backup
 cd
 sudo mkdir /.dotfiles
 git clone --recursive git@github.com:beramos/dotphiles.git ~/.dotfiles
@@ -42,30 +42,20 @@ sudo echo 'zsh' >> ~/.bashrc
 sudo add-apt-repository ppa:nathan-renniewaldock/flux
 sudo apt-get update
 
-# openFOAM4.1 # doesn't work
-sudo add-apt-repository http://dl.openfoam.org/ubuntu
-sudo sh -c "wget -O - http://dl.openfoam.org/gpg.key | apt-key add -"
-sudo apt-get update
-sudo apt-get -y install openfoam4
-
-#inkscape
+# inkscape
 sudo apt-get --yes --force-yes install inkscape
 
-#gimp
+# gimp
 sudo apt-get --yes --force-yes install gimp
 
-#pdftk
+# pdftk
 sudo apt-get --yes --force-yes install pdftk
 
-#pandoc document converter
+# pandoc document converter
 sudo apt-get --yes --force-yes install pandoc
 
-#trecd 
+# tree 
 sudo apt-get --yes --force-yes install tree
-
-# Cinnamon 3.0 for ubuntu 16.04
-sudo add-apt-repository ppa:embrosyn/cinnamon
-sudo apt-get update && sudo apt-get --yes --force-yes install cinnamon
 
 # Brackets
 sudo add-apt-repository ppa:webupd8team/brackets
@@ -74,8 +64,6 @@ sudo apt-get install brackets
 
 # Cifs for mounting windows shares
 sudo apt-get install cifs-utils
-
-
 
 
 
