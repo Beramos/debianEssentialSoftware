@@ -1,32 +1,29 @@
 #!/bin/bash
 # Ubuntu essential software installer
 
-# google-chrome stable
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-sudo apt-get update 
-sudo apt-get install google-chrome-stable
-
-#kile
-sudo apt-get --yes --force-yes install kile
+# vim
+sudo apt-get --yes --force-yes install vim
 
 # Git
 sudo apt-get --yes --force-yes install git
 read -p "add pub key to github, go to: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ and then press enter"
 
-# flash player for google chrome
-# still need to find a good one ;(
+# Add ssh keys to github account, first generate new ssh key
+# ssh-keygen -t rsa -b 4096 -C "bram.de.jaegher@gmail.com"
 
-# generate pub key
-ssh-keygen -t rsa -b 4096 -C "bram.de.jaegher@gmail.com"
-ssh-add ~/.ssh/id_rsa
+
+# google-chrome stable
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get update 
+sudo apt-get --yes --force-yes install google-chrome-stable
+
+#kile
+sudo apt-get --yes --force-yes install kile
 
 # clipx
 sudo apt-get --yes --force-yes install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
-
-# vim
-sudo apt-get --yes --force-yes install vim
 
 #zsh
 sudo apt-get --yes --force-yes install zsh
@@ -63,7 +60,7 @@ sudo apt-get --yes --force-yes install pdftk
 #pandoc document converter
 sudo apt-get --yes --force-yes install pandoc
 
-#tree
+#trecd 
 sudo apt-get --yes --force-yes install tree
 
 # Cinnamon 3.0 for ubuntu 16.04
@@ -77,10 +74,6 @@ sudo apt-get install brackets
 
 # Cifs for mounting windows shares
 sudo apt-get install cifs-utils
-
-
-
-
 
 
 
