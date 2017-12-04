@@ -74,5 +74,5 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 # Installing right powerline font and terminal styling: https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 
-
+# Trello app: https://github.com/danielchatfield/trello-desktop
 
