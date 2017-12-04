@@ -43,7 +43,6 @@ sudo add-apt-repository ppa:nathan-renniewaldock/flux
 sudo apt-get update
 sudo apt-get install fluxgui
 
-
 # inkscape
 sudo apt-get --yes --force-yes install inkscape
 
@@ -67,7 +66,11 @@ sudo apt-get install brackets
 # Cifs for mounting windows shares
 sudo apt-get install cifs-utils
 
+# zsh
+sudo apt-get --yes --force-yes install zsh
 
+# Oh-my-zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 
 
