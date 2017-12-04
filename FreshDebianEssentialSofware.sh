@@ -41,6 +41,8 @@ sudo echo 'zsh' >> ~/.bashrc
 # F.lux
 sudo add-apt-repository ppa:nathan-renniewaldock/flux
 sudo apt-get update
+sudo apt-get install fluxgui
+
 
 # inkscape
 sudo apt-get --yes --force-yes install inkscape
@@ -64,10 +66,6 @@ sudo apt-get install brackets
 
 # Cifs for mounting windows shares
 sudo apt-get install cifs-utils
-
-
-
-
 
 
 
