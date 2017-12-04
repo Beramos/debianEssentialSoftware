@@ -72,7 +72,7 @@ sudo apt-get --yes --force-yes install zsh
 # Oh-my-zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-
+# Installing right powerline font and terminal styling: https://gist.github.com/renshuki/3cf3de6e7f00fa7e744a
 
 
 
